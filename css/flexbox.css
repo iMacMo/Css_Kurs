@@ -1,0 +1,23 @@
+.flexbox{
+  display: flex;
+  flex-direction: row;
+  background-color: #000;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  height: 150px;
+  width: 150px;
+  color: red;
+  align-content: center;
+}
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-radius: 100px;
+}
+
+.flex-row{
+  display: table-footer-group;
+  flex-direction: row-reverse;
+}
